@@ -66,6 +66,43 @@ a {
   margin-top: 25vh;
 }
 
+/* Select Pages */
+
+.navbar {
+  text-align: center;
+  background: #f4f4f4;
+}
+
+.myButton {
+
+  background-color:#6b6b6b;
+  margin-bottom: 1rem;
+  display:inline-block;
+  cursor:pointer;
+  color:#ffffff;
+  font-family:Arial;
+  font-size:14px;
+  padding:5px 9px;
+  text-decoration:none;
+  text-shadow:0px 0px 0px #263666;
+}
+.myButton:hover {
+  background-color:#3d3d3d;
+}
+/*
+.myButton:active {
+  position:relative;
+  background-color: #3d3d3d;
+  top:1px;
+}
+*/
+.current {
+  background-color: #3d3d3d;
+  }
+
+
+
+
 /* Footer */
 
 footer .footer-cols{
