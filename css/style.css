@@ -86,6 +86,19 @@ a {
   text-decoration:none;
   text-shadow:0px 0px 0px #263666;
 }
+.myButton-unactive {
+
+  background-color:#6b6b6b;
+  margin-bottom: 1rem;
+  display:inline-block;
+  cursor:pointer;
+  color:#ffffff;
+  font-family:Arial;
+  font-size:14px;
+  padding:5px 9px;
+  text-decoration:none;
+  text-shadow:0px 0px 0px #263666;
+}
 .myButton:hover {
   background-color:#3d3d3d;
 }
@@ -99,7 +112,6 @@ a {
 .current {
   background-color: #3d3d3d;
   }
-
 
 
 

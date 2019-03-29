@@ -4,8 +4,13 @@
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 	<title>Latest Software</title>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+	<script language="JavaScript" src="settings.js"></script>
+	<script language="JavaScript" src="search.js"></script>
 </head>
-<body>
+<body onload="if (document.getElementById('zoom_searchbox')) {document.getElementById('zoom_searchbox').focus();}">
 
 	<div id="showcase">
 		<header>
@@ -16,6 +21,9 @@
 			  	</li>
 			    <li>
 			      <a href='#applications'>Applications</a>
+			    </li>
+			    <li>
+			    	<a href="#search">Search</a>
 			    </li>
 			</nav>
 		</header>
@@ -104,13 +112,17 @@
 	</section>
 
 	<div class="navbar">
+	<a href="index.html" class="myButton"><</a>
   	<a href="index.html" class="myButton">1</a>
   	<a href="page2.html" class="myButton current">2</a>
   	<a href="page3.html" class="myButton">3</a>
   	<a href="page4.html" class="myButton">4</a>
-  	<a href="page5.html" class="myButton">5</a>
-  	<a href="page6.html" class="myButton">6</a>
+  	<a href="page3.html" class="myButton">></a>
 	</div>
+
+	<section id="search">
+		<script language="JavaScript">ZoomSearch();</script>
+	</section>
 
 
 	<footer>
